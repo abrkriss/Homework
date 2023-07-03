@@ -1,0 +1,18 @@
+public class Program {
+    public static void main(String[] args) {
+        Element<Integer> o1 = new Element<>(88);
+        int v = o1.getT();
+        System.out.println("Значение - " + v);
+        o1.printElement();
+
+        Element<String> o2 = new Element<>("cat");
+        String q = o2.getT();
+        System.out.println("Значение - " + q);
+        o2.printElement();
+        
+        Element<Double> o3 = new Element<>(5.25);
+        Double w = o3.getT();
+        System.out.println("Значение - " + w);
+        o3.printElement();
+    }
+}

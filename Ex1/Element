@@ -1,0 +1,15 @@
+public class Element<T>{
+    T ob;
+
+    Element(T o){
+        this.ob = o;
+    }
+
+    public T getT() {
+        return ob;
+    }
+
+    void printElement(){
+        System.out.print("Тип Т - это " + ob.getClass().getName() + "\n");
+    }
+}

@@ -1,0 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+       Array array = new Array();
+       String[] animals = {"Cat", "Dog", "Crocodile","Monkey"};
+       Integer[] numbers = {8,9,10,11, 12};
+       array.print(animals);
+        System.out.println("///");
+       array.print(numbers);
+    }
+}
